@@ -1,20 +1,3 @@
-# def calculate_aqi_from_pm25(pm25):
-#     """
-#     US EPA PM2.5 AQI calculation (simplified)
-#     """
-#     if pm25 <= 12:
-#         return 50
-#     elif pm25 <= 35.4:
-#         return 100
-#     elif pm25 <= 55.4:
-#         return 150
-#     elif pm25 <= 150.4:
-#         return 200
-#     elif pm25 <= 250.4:
-#         return 300
-#     else:
-#         return 400
-
 def calculate_aqi_from_pm25(pm25):
     """
     Continuous AQI calculation using US EPA breakpoints

@@ -15,4 +15,4 @@ app.register_blueprint(aqi_bp, url_prefix="/api/aqi")
 app.register_blueprint(auth_bp, url_prefix="/api/auth")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
